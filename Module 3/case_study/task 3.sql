@@ -1,0 +1,1 @@
+select * from customer where ((YEAR(CURDATE()) - YEAR(customer_birthday)) BETWEEN 18 and 50) and (customer_address like "%Đà Nẵng" or customer_address like "%Quảng Trị");
