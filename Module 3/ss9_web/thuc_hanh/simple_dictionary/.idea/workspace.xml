@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58276569-a89f-46b3-b871-0fa02b36cd12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/src/main/java/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/src/main/java/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss10_JSTL/thuc_hanh1/src/main/webapp/coverter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +42,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thuchanh4/simple_dictionary" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunManager">
@@ -144,6 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646900114562</updated>
       <workItem from="1646900115835" duration="2140000" />
+      <workItem from="1646981486028" duration="25000" />
     </task>
     <servers />
   </component>
@@ -160,5 +163,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
