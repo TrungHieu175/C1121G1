@@ -28,19 +28,23 @@
 </p>
 <form method="post">
     <fieldset>
-        <legend>Customer information</legend>
+        <legend>Product information</legend>
         <table>
             <tr>
-                <td>Name: </td>
+                <td>Name Product: </td>
                 <td><input type="text" name="name" id="name"></td>
             </tr>
             <tr>
-                <td>Email: </td>
-                <td><input type="text" name="email" id="email"></td>
+                <td>Price Product: </td>
+                <td><input type="text" name="price" id="price"></td>
             </tr>
             <tr>
-                <td>Address: </td>
-                <td><input type="text" name="address" id="address"></td>
+                <td>Description Product: </td>
+                <td><input type="text" name="description" id="description"></td>
+            </tr>
+            <tr>
+                <td>Producer: </td>
+                <td><input type="text" name="producer" id="producer"></td>
             </tr>
             <tr>
                 <td></td>

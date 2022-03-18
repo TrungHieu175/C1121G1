@@ -21,16 +21,20 @@
         <legend>Customer information</legend>
         <table>
             <tr>
-                <td>Name:</td>
-                <td>${requestScope["product"].getName()}</td>
+                <td>Name Product:</td>
+                <td>${requestScope["products"].getName()}</td>
             </tr>
             <tr>
-                <td>Email:</td>
-                <td>${requestScope["product"].getEmail()}</td>
+                <td>Price Product:</td>
+                <td>${requestScope["products"].getPrice()}</td>
             </tr>
             <tr>
-                <td>Address:</td>
-                <td>${product.getAddress()}</td>
+                <td>Description Product:</td>
+                <td>${product.getDescription()}</td>
+            </tr>
+            <tr>
+                <td>Producer:</td>
+                <td>${requestScope["products"].getProducer()}</td>
             </tr>
             <tr>
                 <td><input type="submit" value="Delete product"></td>

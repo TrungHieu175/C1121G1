@@ -18,15 +18,15 @@
 <table>
     <tr>
         <td>Name: </td>
-        <td>${requestScope["product"].getName()}</td>
+        <td>${requestScope["products"].getName()}</td>
     </tr>
     <tr>
         <td>Email: </td>
-        <td>${requestScope["product"].getEmail()}</td>
+        <td>${requestScope["products"].getEmail()}</td>
     </tr>
     <tr>
         <td>Address: </td>
-        <td>${requestScope["product"].getAddress()}</td>
+        <td>${requestScope["products"].getAddress()}</td>
     </tr>
 </table>
 </body>

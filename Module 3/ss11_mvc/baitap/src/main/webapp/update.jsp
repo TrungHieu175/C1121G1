@@ -24,17 +24,21 @@
     <fieldset>
         <legend>Customer information</legend>
         <table>
+            <<tr>
+            <td>Name Product:</td>
+            <td><input type="text" name="name" id="name" value="${products.name}"/></td>
+        </tr>
             <tr>
-                <td>Name: </td>
-                <td><input type="text" name="name" id="name" value="${requestScope["product"].getName()}"></td>
+                <td>Price Product:</td>
+                <td><input type="text" name="price" id="price" value="${products.price}"/></td>
             </tr>
             <tr>
-                <td>Email: </td>
-                <td><input type="text" name="email" id="email" value="${requestScope["product"].getEmail()}"></td>
+                <td>Description Product:</td>
+                <td><input type="text" name="description" id="description" value="${products.description}"/></td>
             </tr>
             <tr>
-                <td>Address: </td>
-                <td><input type="text" name="address" id="address" value="${requestScope["product"].getAddress()}"></td>
+                <td>Producer:</td>
+                <td><input type="text" name="producer" id="producer" value="${products.producer}"/></td>
             </tr>
             <tr>
                 <td></td>

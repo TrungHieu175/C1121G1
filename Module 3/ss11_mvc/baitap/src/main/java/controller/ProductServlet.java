@@ -10,12 +10,13 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "controller.CustomerServlet", value = "/customers")
+@WebServlet(name = "controller.CustomerServlet", value = "/products")
 public class ProductServlet extends HttpServlet {
     private IProductService iProductService = new ProductService();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         String action = request.getParameter("action");
         if(action == null){
             action = "";
@@ -41,6 +42,7 @@ public class ProductServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         String action = request.getParameter("action");
         if(action == null){
             action = "";
@@ -62,7 +64,7 @@ public class ProductServlet extends HttpServlet {
 
     private void listProduct(HttpServletRequest request, HttpServletResponse response) {
         List<Product> products = iProductService.findAll();
-        request.setAttribute("customers", products);
+        request.setAttribute("products", products);
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("list.jsp");
         try {
@@ -85,11 +87,12 @@ public class ProductServlet extends HttpServlet {
     }
     private void createProduct(HttpServletRequest request, HttpServletResponse response) {
         String name = request.getParameter("name");
-        String email = request.getParameter("email");
-        String address = request.getParameter("address");
+        Integer price = Integer.valueOf(request.getParameter("price"));
+        String description = request.getParameter("description");
+        String producer = request.getParameter("producer");
         int id = (int)(Math.random() * 10000);
 
-        Product product = new Product(id, name, email, address);
+        Product product = new Product(id, name, price, description,producer);
         iProductService.save(product);
         RequestDispatcher dispatcher = request.getRequestDispatcher("create.jsp");
         request.setAttribute("message", "New customer was created");
@@ -108,7 +111,7 @@ public class ProductServlet extends HttpServlet {
         if(product == null){
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         } else {
-            request.setAttribute("customer", product);
+            request.setAttribute("products", product);
             dispatcher = request.getRequestDispatcher("update.jsp");
         }
         try {
@@ -120,20 +123,22 @@ public class ProductServlet extends HttpServlet {
         }
     }
     private void updateProduct(HttpServletRequest request, HttpServletResponse response) {
-        int id = Integer.parseInt(request.getParameter("id"));
+        Integer id = Integer.parseInt(request.getParameter("id"));
         String name = request.getParameter("name");
-        String email = request.getParameter("email");
-        String address = request.getParameter("address");
+        Integer price = Integer.valueOf(request.getParameter("price"));
+        String description = request.getParameter("description");
+        String producer = request.getParameter("producer");
         Product product = iProductService.findById(id);
         RequestDispatcher dispatcher;
         if(product == null){
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         } else {
             product.setName(name);
-            product.setPrice(email);
-            product.setProducer(address);
+            product.setPrice(price);
+            product.setProducer(description);
+            product.setProducer(producer);
             iProductService.update(id, product);
-            request.setAttribute("customer", product);
+            request.setAttribute("products", product);
             request.setAttribute("message", "Customer information was updated");
             dispatcher = request.getRequestDispatcher("update.jsp");
         }
@@ -152,7 +157,7 @@ public class ProductServlet extends HttpServlet {
         if(product == null){
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         } else {
-            request.setAttribute("customer", product);
+            request.setAttribute("products", product);
             dispatcher = request.getRequestDispatcher("delete.jsp");
         }
         try {
@@ -172,7 +177,7 @@ public class ProductServlet extends HttpServlet {
         } else {
             iProductService.remove(id);
             try {
-                response.sendRedirect("/customers");
+                response.sendRedirect("/products");
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -185,7 +190,7 @@ public class ProductServlet extends HttpServlet {
         if(product == null){
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         } else {
-            request.setAttribute("customer", product);
+            request.setAttribute("products", product);
             dispatcher = request.getRequestDispatcher("view.jsp");
         }
         try {
