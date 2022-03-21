@@ -23,4 +23,18 @@ public interface IUserService {
     User getUserById(Integer id);
 
     void insertUserStore(User user);
+
+    void addUserTransaction(User user, int[] permision);
+
+    public void insertUpdateWithoutTransaction();
+
+    public void insertUpdateUseTransaction();
+
+    public void selectUser();
+
+    public void updateUserStore(User user);
+
+    public List<User> searchByCountry(String country);
+
+    public void deleteUserStore(Integer id);
 }

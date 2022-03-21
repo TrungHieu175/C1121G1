@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
-        input{
+        input {
             font-size: small;
         }
     </style>
@@ -28,12 +28,16 @@
 
     <tr>
         <h2>
-            <a href="/customers?action=create">Add New User</a>
+            <a href="/users?action=create">Add New User</a>
             <form action="/users" method="get">
                 <input type="text" name="searchName" placeholder="Search by name">
                 <input type="text" value="search" name="action" hidden>
                 <input type="submit" value="Search">
             </form>
+        </h2>
+    </tr>
+    <tr>
+        <h2>
             <form action="/users" method="get">
                 <input type="text" name="searchId" placeholder="Search by ID">
                 <input type="text" value="searchId" name="action" hidden>
@@ -41,6 +45,16 @@
             </form>
         </h2>
     </tr>
+    <tr>
+        <h2>
+            <form action="/users" method="get">
+                <input type="text" name="searchCountry" placeholder="Search by Country">
+                <input type="text" value="searchCountry" name="action" hidden>
+                <input type="submit" value="Search by Country">
+            </form>
+        </h2>
+    </tr>
+
     <tr>
 </center>
 <div align="center">
@@ -65,6 +79,8 @@
             <td>
                 <a href="/users?action=edit&id=${user.id}">Edit</a>
                 <a href="/users?action=delete&id=${user.id}">Delete</a>
+                <a href="/users?action=remove&id=${user.id}">Remove</a>
+                <a href="/users?action=update&id=${user.id}">Update</a>
             </td>
         </tr>
     </c:forEach>
@@ -81,14 +97,14 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 <script>
-    $.extend( true, $.fn.dataTable.defaults, {
+    $.extend(true, $.fn.dataTable.defaults, {
         "searching": false,
         "ordering": false
-    } );
-    $(document).ready(function() {
+    });
+    $(document).ready(function () {
         $('#example').DataTable({
             "lengthMenu": [[5, 10, 15, -1], [5, 10, 15, "All"]]
         });
-    } );
+    });
 </script>
 </html>

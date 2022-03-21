@@ -52,6 +52,45 @@ public class UserService implements IUserService {
 
     @Override
     public void insertUserStore(User user) {
+
         iUserRepository.insertUserStore(user);
+    }
+
+    public void addUserTransaction(User user, int[] permision) {
+        iUserRepository.addUserTransaction(user, permision);
+    }
+
+    @Override
+    public void insertUpdateWithoutTransaction() {
+
+        iUserRepository.insertUpdateWithoutTransaction();
+    }
+
+    @Override
+    public void insertUpdateUseTransaction() {
+
+        iUserRepository.insertUpdateUseTransaction();
+    }
+
+    @Override
+    public void selectUser() {
+
+        iUserRepository.selectUser();
+    }
+
+    public void updateUserStore(User user) {
+
+        iUserRepository.updateUser(user);
+    }
+
+    @Override
+    public List<User> searchByCountry(String country) {
+
+        return iUserRepository.searchByCountry(country);
+    }
+
+    @Override
+    public void deleteUserStore(Integer id) {
+        iUserRepository.deleteUserStore(id);
     }
 }
