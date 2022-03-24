@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2fc4239c-4404-4e27-94a8-e11bd5c3a31a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rebository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rebository/impl/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rebository/impl/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/693912.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/710996.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/738019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/779575.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/804695.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/847035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/872893.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/887461.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/910923.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/940164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/954509.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/967115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (11).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (12).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (17).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (32).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (33).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (6).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (9).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (11).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (12).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (17).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (32).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (33).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (6).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama/src/main/webapp/image/Gearvn_Kimetsu no Yaiba_ (9).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss13_CollableStatement/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss13_CollableStatement/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CaseStudy" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="26ggo1vwIIU2LPGMY5YxCPg4NBG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Furama" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\C1121G1_MacMaiTrungHieu\Module 3\CaseStudy\src\main\java\rebository" />
+      <recent name="D:\CodeGym\C1121G1_MacMaiTrungHieu\Module 3\CaseStudy\src\main\java\service" />
+      <recent name="D:\CodeGym\C1121G1_MacMaiTrungHieu\Module 3\CaseStudy\src\main\webapp\image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\C1121G1_MacMaiTrungHieu\Module 3\CaseStudy\src\main\webapp\css" />
+      <recent name="D:\CodeGym\C1121G1_MacMaiTrungHieu\Module 3\CaseStudy\src\main\webapp" />
+      <recent name="D:\CodeGym\C1121G1_MacMaiTrungHieu\Module 3\CaseStudy\src" />
+      <recent name="D:\CodeGym\C1121G1_MacMaiTrungHieu\Module 3\CaseStudy\src\main\webapp\image" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+      <recent name="rebository" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.58" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.58" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.example : CaseStudy-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="a6334cd5-2506-438c-a5df-f6d7df8bfbdd" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57139" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.example : CaseStudy-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fc4239c-4404-4e27-94a8-e11bd5c3a31a" name="Changes" comment="" />
+      <created>1647850816459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647850816459</updated>
+      <workItem from="1647850818777" duration="9000000" />
+      <workItem from="1647915106555" duration="605000" />
+      <workItem from="1647917420219" duration="52178000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>
